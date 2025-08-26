@@ -1,4 +1,5 @@
 import React from 'react';
+import img from '../assets/profile.jpg';
 
 export default function Account(){
   return (
@@ -7,7 +8,7 @@ export default function Account(){
 
       <div className="mt-4 flex items-start space-x-4">
         <div className="relative">
-          <img src="/src/assets/profile.jpg" className="w-20 h-20 rounded-full object-cover" />
+          <img src={img} className="w-20 h-20 rounded-full object-cover" />
           <div className="absolute -right-1 bottom-0 bg-popxPurple w-8 h-8 rounded-full flex items-center justify-center border-2 border-white">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg"><path d="M12 7a5 5 0 100 10 5 5 0 000-10z"/><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" /></svg>
           </div>
