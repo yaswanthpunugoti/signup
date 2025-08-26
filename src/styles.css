@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --device-width: 390px; --device-height: 844px; }
+.device {
+  width: var(--device-width);
+  height: 90vh;
+  border: 10px solid rgba(0,0,0,0.02);
+  border-radius: 30px;
+  overflow: hidden; 
+}
+.font-inter { font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
