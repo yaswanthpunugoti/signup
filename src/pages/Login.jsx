@@ -17,7 +17,7 @@ export default function Login(){
         <label className="block text-xs text-popxPurple">Password</label>
         <input value={pass} onChange={e=>setPass(e.target.value)} type="password" className="w-full p-3 rounded-lg border border-gray-200 bg-white" placeholder="Enter password" />
 
-        <button onClick={()=>nav('/account')} className="w-full mt-2 p-3 rounded-lg bg-gray-300 text-white font-semibold">Login</button>
+        <button onClick={()=>nav('/account')} className="w-full py-3 rounded-xl bg-popxPurple text-white font-semibold">Login</button>
       </div>
     </div>
   )
